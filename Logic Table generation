@@ -1,0 +1,2 @@
+#=IF(ROW()>2^($A$1+1),"",IF(COLUMN()>$A$1,"",MID(TEXT(DEC2BIN(ROW()-2),REPT(0,$A$1)),COLUMN(),1)*1)) 
+#code generates logic table based on N a numeber stored in cell A1
